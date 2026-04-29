@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : THIRUMALAI K
+Roll no : 212224240176
+Date of experiment : AIML
 
 
 
@@ -79,23 +79,134 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
+```PY
+MOV AL,05H
+MOV BL,10H
+ADD AL,BL
+MOV CL,AL     
+
+```
+## Addition of 16 bits ALP
+
+```py
+MOV AX,1234H
+MOV BX,9999H
+ADD AX,BX
+MOV CX,AX
+```
 
 
 ## Output  
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/062cc030-ba1a-4d6e-9222-14588c240c89" /> <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f2bc8ad7-155d-4e89-93e4-0236f558072f" />
+
+
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
+
+
+```P
+MOV AL,05H
+MOV BL,10H
+SUB AL,BL
+MOV CL,AL 
+```
+## Subtraction   of 16 bit numbers  ALP 
+
+```P
+MOV AX,1234H
+MOV BX,9999H
+SUB AX,BX
+MOV CX,AX
+
+```
 ## Output  
+
+<img width="702" height="547" alt="image" src="https://github.com/user-attachments/assets/d92ea948-ce8a-485f-ab65-20a0d966ff11" />
+<img width="707" height="545" alt="image" src="https://github.com/user-attachments/assets/6b12792a-2c9d-43ea-9a5b-13cc4f7e4447" />
+
+
 ## Multiplication alp 
+
+## 8 BIT :
+```P
+MOV AL,05H
+MOV BL,10H
+MUL BL
+MOV CL,BL
+```
+
+## 16 BIT 
+
+```P
+MOV AX,1234H
+MOV BX,9999H
+MUL BX
+MOV CX,BX
+```
  ## Output  
+<img width="697" height="545" alt="image" src="https://github.com/user-attachments/assets/0dfd3f5c-a694-4ebc-962c-47ad1bb1e8ed" />
+<img width="705" height="542" alt="image" src="https://github.com/user-attachments/assets/cd883a4b-dd50-4501-aa42-c6da9e214c90" />
+
 
 
 ## Division alp 
-
+```py
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+```
 ## Output  
+![image](https://github.com/user-attachments/assets/bc8b241c-c2dc-4956-b257-8f9d7ffa0d7a)
+
+## And of 8 bit numbers ALP
+```py
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/1f70ed7f-a214-4cb8-999c-adcd31784382)
+
+
+## OR of 8 bit numbers ALP
+```py
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/f2363e83-9f02-4a06-8754-e2a5f5b9cd97)
+
+
+## NOT of 8 bit number ALP
+```py
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/a29500ad-06ec-44d4-bde9-f5c762d42f20)
+
+
+## XOR of 8 bit number ALP
+```py
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+
+## Output
+![image](https://github.com/user-attachments/assets/ec2e9fe5-3ebe-42c7-a9be-54a8a69e4f91)
 
 
 ## Result :
+
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
