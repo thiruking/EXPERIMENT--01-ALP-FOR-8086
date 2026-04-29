@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : THIRUMALAI K
-Roll no : 212224240176
-Date of experiment : AIML
+# Name : THIRUMALAI K
+# Roll no : 212224240176
+# Date of experiment : AIML
 
 
 
